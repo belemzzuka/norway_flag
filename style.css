@@ -1,0 +1,66 @@
+.padre{
+    width: 50%;
+    height: 650px;
+    background-color: green;
+    display: flex;
+}
+
+.lado-izq{
+    width: 27%;
+    height: 650px;
+    background-color: darkblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.lado-izq-arriba{
+    height: 45%;
+    background-color: white;
+    justify-content: flex-start;
+}
+
+.lado-izq-abajo{
+    height: 45%;
+    background-color: white;
+    display: flex;
+    align-items: flex-end;
+}
+
+.lado-izq-rojo{
+    width: 85%;
+    height: 85%;
+    background-color: darkred;
+}
+
+.lado-der{
+    width: 75%;
+    background-color: darkblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.lado-der-arriba{
+    width: 90%;
+    height: 45%;
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.lado-der-abajo{
+    width: 90%;
+    height: 45%;
+    background-color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.lado-der-rojo{
+    width: 93%;
+    height: 85%;
+    background-color: darkred;
+}
